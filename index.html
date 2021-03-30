@@ -1,0 +1,178 @@
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="css\home.css">
+		<link rel="icon" href="icon/logo.png" type="image/x-icon">
+	</head>
+	<header>
+		<a class="hicon" href="/">HOME</a>
+		<button type="submit" id="id01" onclick=" document.getElementById('menu').style.display='block';">Menu</button>
+		<button type="submit" id="id02" >Logout</button>
+		<input type="text" id="idsearch" placeholder="Search Here">
+	</header>
+	<body>
+		<div class="content">
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+				#<br>
+		</div>
+		<div class="menu_bar" id="menu">
+			<button type="submit" id="id01" onclick=" document.getElementById('menu').style.display='none';">Hide</button>
+			<div class="options">
+				<ul class="list">
+					<button id="menuli" onclick="tmenu()">Topics</button>
+						<ul id="idtopic">
+							<button><a href="#">Non-Technical</a></button>
+							<button><a href="#">Technical</a></butotn>
+						</ul>
+					<button><a href="#" id="menuli">Motivation</a></button>
+					<button><a href="#" id="menuli">Psychology</a></button>
+					<button id="menuli" onclick="tmenu2()">News Updates</button>
+					<ul id="idtopic2">
+						<button>Non-Technical</button>
+						<button>Technical</button>
+					</ul>
+				</ul>
+			</div>
+			<div class="log_box" id="lid1">
+				<button type="submit" class="log_but" id="id2" onclick="loginclick()">Login</button><br><br>
+				<label style="color: aliceblue;">New to us? <button id="id002" class="log_but" onclick="rmback()">Create account</button></label>
+			</div>		
+		</div>
+		<div class="bform" id="idbform"></div>
+        <div class="formout" id="idformout">
+            <form id="idform1">
+                <div class="formin">
+                    <a onclick="rmloginclick()" id="close1">X</a>
+                    <p><label><B>USER LOGIN</B></label></p>
+                    <div class="iinform">
+                        <p><br>
+                            <label>User ID :</label>
+                            <input type="text"></p>
+                        </p>
+                        <br>
+                        <p>
+                            <label>Password : </label>
+                            <input type="password">
+                        </p><br>
+                        <label id="idcret" >New to us? <a href="#"onclick="rmback()" style="color: blue;">create account</a></label>
+                        <button type="submit" id="idlogin">LOGIN</button>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+		<div class="Sformout" id="Sidformout">
+            <form id="Sidform1">
+                <div class="Sformin">
+                    <a onclick="rmloginclick()" id="Sclose1">X</a>
+                    <p><label><B>FILL DETAILS</B></label></p>
+                    <div class="Siinform">
+                        <p><br>
+                            <label>User Name :</label>
+                            <input type="text"></p>
+                        </p>
+                        <br>
+						<p><br>
+                            <label>Contact :</label>
+                            <input type="text"></p>
+                        </p>
+                        <br>
+						<p><br><p>
+                            <label>Register as :</label>
+                            <label id="idas"> tutor<input type="radio" name="as" value="T"> learner<input type="radio" name="as" value="L"></label></p>
+						</p>
+                        </p>
+                        <br>
+                        <p>
+                            <label>Password : </label>
+                            <input type="password">
+                        </p><br>
+                        <label id="Sidcret" >Already have account ? <a href="#"onclick="loginclick()" style="color: blue;">LOGIN</a></label>
+                        <button type="submit" id="Sidlogin">SIGNUP</button>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+	</body>
+	<footer>
+	</footer>
+	<script src="javascript/script.js">
+	</script>
+</html>
